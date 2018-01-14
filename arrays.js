@@ -3,8 +3,8 @@ function addElementToBeginningOfArray(originArray, addElement) {
   return outputArray
 }
 function destructivelyAddElementToBeginningOfArray(originArray, addElement) {
-  var originArray = originArray.unshift(addElement)
-  return originArray
+
+  return originArray.unshift(addElement)
 }
 function addElementToEndOfArray(originArray, addElement) {
   var outputArray = [originArray, ... addElement]
