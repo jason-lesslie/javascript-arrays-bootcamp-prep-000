@@ -1,5 +1,5 @@
 function addElementToBeginningOfArray(originArray, addElement) {
-  var outputArray = originArray.unshift(addElement)
+  var outputArray = [addElement, ... originArray]
   return outputArray
 }
 function destructivelyAddElementToBeginningOfArray(originArray, addedElement) {
