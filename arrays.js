@@ -26,3 +26,11 @@ function destructivelyRemoveElementFromBeginningOfArray(originArray) {
 function removeElementFromBeginningOfArray(originArray) {
   return originArray.slice(1)
 }
+function destructivelyRemoveElementFromEndOfArray(originArray) {
+  originArray.unshift()
+  return originArray
+}
+function removeElementFromEndOfArray(originArray) {
+  originArray.pop()
+  return originArray
+}
