@@ -9,7 +9,7 @@ function destructivelyAddElementToBeginningOfArray(originArray, addElement) {
   return originArray
 }
 function addElementToEndOfArray(originArray, addElement) {
-  var outputArray = [originArray, ... addElement]
+  var outputArray = [...originArray, addElement]
   return outputArray
 }
 function destructivelyAddElementToEndOfArray(originArray, addElement) {
