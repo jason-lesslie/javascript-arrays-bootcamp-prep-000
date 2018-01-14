@@ -6,7 +6,7 @@ function destructivelyAddElementToBeginningOfArray(originArray, addedElement) {
   var originArray = originArray.unshift(addElement)
   return originArray
 }
-function addElementToEndOfArray(originArray, ) {
+function addElementToEndOfArray(originArray, addedElement) {
   var outputArray = [originArray, ... addElement]
   return outputArray
 }
