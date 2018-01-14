@@ -2,15 +2,15 @@ function addElementToBeginningOfArray(originArray, addElement) {
   var outputArray = [addElement, ... originArray]
   return outputArray
 }
-function destructivelyAddElementToBeginningOfArray(originArray, addedElement) {
+function destructivelyAddElementToBeginningOfArray(originArray, addElement) {
   var originArray = originArray.unshift(addElement)
   return originArray
 }
-function addElementToEndOfArray(originArray, addedElement) {
+function addElementToEndOfArray(originArray, addElement) {
   var outputArray = [originArray, ... addElement]
   return outputArray
 }
-function destructivelyAddElementToEndOfArray(originArray, addedElement) {
+function destructivelyAddElementToEndOfArray(originArray, addElement) {
   var originArray = originArray.push(addElement)
   return originArray
 }
