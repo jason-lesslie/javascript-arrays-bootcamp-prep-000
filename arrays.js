@@ -27,7 +27,7 @@ function removeElementFromBeginningOfArray(originArray) {
   return originArray.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray(originArray) {
-  originArray.unshift()
+  originArray.push()
   return originArray
 }
 function removeElementFromEndOfArray(originArray) {
