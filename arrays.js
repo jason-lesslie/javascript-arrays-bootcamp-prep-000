@@ -16,10 +16,13 @@ function destructivelyAddElementToEndOfArray(originArray, addElement) {
   originArray.push(addElement)
   return originArray
 }
-function accessElementInArray (originArray, arrayIndex) {
+function accessElementInArray(originArray, arrayIndex) {
   return originArray[arrayIndex]
 }
-function destructivelyRemoveElementFromBeginningOfArray (originArray) {
+function destructivelyRemoveElementFromBeginningOfArray(originArray) {
   originArray.shift()
   return originArray
+}
+function removeElementFromBeginningOfArray(originArray) {
+  return originArray.slice(1)
 }
